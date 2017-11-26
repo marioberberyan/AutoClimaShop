@@ -1,0 +1,115 @@
+.filter-product {
+	
+}
+
+	.filter-product .filter-tabs {
+		border-bottom: 1px solid #e6e6e6;
+		list-style: none;
+		padding: 0px 65px 0px 0px;
+		margin: 20px 0px 20px 0px;
+	}
+		.filter-product .filter-tabs ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  width: 352px;
+  margin: auto;
+}
+	
+		.filter-product .filter-tabs ul > li {
+		  float: left;
+		  margin-bottom: -1px;
+		}
+		
+			.filter-product .filter-tabs ul > li > a {
+			  margin: 10px 5px 0px 0px;
+			  
+			  border-radius: 2px 2px 0 0;
+			
+			  padding: 13px 25px 13px 25px;
+			  font-size: 18px;
+			  position: relative;
+			  display: block;
+			}
+			
+			.filter-product .filter-tabs ul > li > a:hover {
+			  border-color: #eeeeee #eeeeee #e6e6e6;
+			}
+			
+			.filter-product .filter-tabs ul > li.active > a,
+			.filter-product .filter-tabs ul > li.active > a:hover,
+			.filter-product .filter-tabs ul > li.active > a:focus {
+			  color: #000;
+			  cursor: default;
+			  background-color: #ffffff;
+			  border: 1px solid #dddddd;
+			  border-bottom-color: transparent;
+			}
+
+.tab-content {
+	position: relative;
+}
+				
+	.tab-content .prev-button, 
+	.tab-content .next-button {
+		margin: 2px 0px 0px 0px;
+		width: 30px;
+		height: 27px;
+		
+		position: absolute;
+		top: -58px;		
+		right: 0;
+	}
+		
+		.tab-content .prev-button {
+			right: 20px;
+			border-right: none;
+			border-radius:         20px 0px 0px 20px;
+			-moz-border-radius:    20px 0px 0px 20px;
+			-webkit-border-radius: 20px 0px 0px 20px;
+		}
+		
+		.tab-content .prev-button:hover, 
+		.tab-content .next-button:hover {
+			
+		}
+	
+		.tab-content .prev-button span, 
+		.tab-content .next-button span {
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			line-height: 1;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			color: #222;
+			font-size: 30px;
+			display: block;
+			width: 28px;
+			height: 25px;
+			text-align: center;
+			padding: 2px 0px 0px 1px;
+		}
+		
+			.tab-content .next-button span {
+				padding-right: 3px;
+			}
+			
+			.tab-content .next-button span:before {
+				content: "\f0da";
+			}
+			
+			.tab-content .prev-button span:before {
+				content: "\f0d9";
+			}
+			
+@media (max-width: 767px) {
+	.responsive .filter-product .filter-tabs {
+		margin: 15px 0px 20px 0px;
+	}
+	
+	.responsive .filter-product .filter-tabs ul > li > a {
+		padding: 10px 7px;
+		font-size: 12px;
+	}
+}

@@ -1,0 +1,748 @@
+//
+// Variables | override and extend Bootstrap variables
+// --------------------------------------------------
+// 'bs-' prefix used as extra component variables
+
+//=== Colors
+
+@gray-base:                                 #000;
+@gray-darker:                               #222;
+@gray-dark:                                 #424242;
+@gray:                                      #666;
+@gray-light:                                #828282;
+@gray-lighter:                              #f4f4f4;
+
+@brand-primary:                             #4365e0;
+@brand-success:                             #4DA500;
+@brand-info:                                #7492FF;
+@brand-warning:                             #ffa000;
+@brand-danger:                              #dd191d;
+
+
+//=== Scaffolding
+
+@body-bg:                                   #fff;
+@text-color:                                #383838;
+@text-color-contrast:                       #fff;
+@border-color:                              #d2d2d2;
+
+@link-color:                                @brand-primary;
+@link-hover-color:                          darken(@link-color, 15%);
+@link-hover-decoration:                     none;
+
+
+//=== Typography
+
+@font-family-sans-serif:                    "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:                         Georgia, "Times New Roman", Times, serif;
+@font-family-arial:                         Arial, Helvetica, sans-serif;
+@font-family-verdana:                       Verdana, Arial, sans-serif;
+@font-family-monospace:                     Menlo, Monaco, Consolas, "Courier New", monospace;
+
+@font-family-base:                          @font-family-arial;
+
+@font-size-base:                            13px; // 14px;
+@font-size-large:                           18px;
+@font-size-small:                           12px;
+
+@font-size-h1:                              30px;
+@font-size-h2:                              26px;
+@font-size-h3:                              24px;
+@font-size-h4:                              19px;
+@font-size-h5:                              14px;
+@font-size-h6:                              12px;
+
+@line-height-base:                          20px;
+@line-height-computed:                      @line-height-base;
+
+@headings-font-family:                      @font-family-base;
+@headings-font-weight:                      500;
+@headings-line-height:                      1.2;
+@headings-color:                            @gray-darker;
+
+
+//=== Spacing
+
+@bs-margin:                                 20px;
+@bs-margin-large:                           30px;
+
+@bs-heading-margin-top:                     20px;
+@bs-heading-margin-bottom:                  20px;
+
+
+//=== Type
+
+@component-offset-horizontal:               180px; // Horizontal offset for forms and lists.
+
+@text-muted:                                @gray-light;
+@abbr-border-color:                         @gray-light; // Abbreviations and acronyms border color
+
+@code-color:                                #d81b60;
+@code-bg:                                   #f4f4f4;
+
+@kbd-color:                                 #fff;
+@kbd-bg:                                    #333;
+
+@pre-bg:                                    @gray-lighter;
+@pre-color:                                 @gray-dark;
+@pre-border-color:                          @border-color;
+@pre-scrollable-max-height:                 340px;
+
+@headings-small-color:                      @gray-light; // Headings small color
+
+@blockquote-font-size:                      @font-size-large;
+@blockquote-small-color:                    @gray-light;
+@blockquote-border-color:                   darken(@gray-lighter, 5%);
+
+@hr-border:                                 @border-color;
+@page-header-border-color:                  @border-color;
+
+@dl-horizontal-offset:                      @component-offset-horizontal; // Width of horizontal description list titles
+
+
+//=== Components
+
+@padding-base-vertical:                     5px;
+@padding-base-horizontal:                   8px;
+
+@padding-large-vertical:                    8px;
+@padding-large-horizontal:                  12px;
+
+@padding-small-vertical:                    3px;
+@padding-small-horizontal:                  7px;
+
+@padding-xs-vertical:                       1px;
+@padding-xs-horizontal:                     4px;
+
+@line-height-large:                         1.3333333; // extra decimals for Win 8.1 Chrome
+@line-height-small:                         1.5;
+
+@border-radius-base:                        3px;
+@border-radius-large:                       4px;
+@border-radius-small:                       3px;
+
+@component-active-color:                    @text-color-contrast; // color for active items (e.g., navs or dropdowns).
+@component-active-bg:                       @brand-primary; // background for active items (e.g., navs or dropdowns).
+
+@caret-width-base:                          4px;
+@caret-width-large:                         5px;
+
+
+//=== Tables
+
+@table-cell-padding:                        8px; // Padding for `<th>`s and `<td>`s.
+@table-condensed-cell-padding:              5px;
+
+@table-bg:                                  transparent;
+@table-bg-accent:                           #f8f8f8;
+@table-bg-hover:                            #eaf0fc;
+@table-bg-active:                           @table-bg-hover;
+@table-border-color:                        @border-color;
+
+
+//=== Buttons
+@btn-font-weight:                           normal;
+
+@btn-default-color:                         #333;
+@btn-default-bg:                            #fff;
+@btn-default-border:                        @border-color;
+
+@btn-primary-color:                         @text-color-contrast;
+@btn-primary-bg:                            @brand-primary;
+@btn-primary-border:                        darken(@btn-primary-bg, 5%);
+
+@btn-success-color:                         @text-color-contrast;
+@btn-success-bg:                            @brand-success;
+@btn-success-border:                        darken(@btn-success-bg, 5%);
+
+@btn-info-color:                            @text-color-contrast;
+@btn-info-bg:                               @brand-info;
+@btn-info-border:                           darken(@btn-info-bg, 5%);
+
+@btn-warning-color:                         @text-color-contrast;
+@btn-warning-bg:                            @brand-warning;
+@btn-warning-border:                        darken(@btn-warning-bg, 5%);
+
+@btn-danger-color:                          @text-color-contrast;
+@btn-danger-bg:                             @brand-danger;
+@btn-danger-border:                         darken(@btn-danger-bg, 5%);
+
+@btn-link-disabled-color:                   @gray-light;
+
+
+//=== Forms
+
+@input-bg:                                  @text-color-contrast;
+@input-bg-disabled:                         @gray-lighter;
+
+@input-color:                               #555;
+@input-border:                              @border-color;
+
+@input-border-radius:                       @border-radius-base;
+@input-border-radius-large:                 @border-radius-large;
+@input-border-radius-small:                 @border-radius-small;
+
+@input-border-focus:                        rgba(40,53,147,.3);
+@bs-input-background-focus:                 #f3f4ff;
+
+@input-color-placeholder:                   #aaa;
+
+@input-height-base:                         32px;
+@input-height-large:                        42px;
+@input-height-small:                        26px;
+
+@legend-color:                              @text-color;
+@legend-border-color:                       #e5e5e5;
+
+@input-group-addon-bg:                      @gray-lighter;
+@input-group-addon-border-color:            @input-border;
+
+@cursor-disabled:                           not-allowed; // Disabled cursor for form controls and buttons.
+
+
+//=== Dropdowns
+@dropdown-header-color:                     @gray-light;
+@dropdown-caret-color:                      @text-color;
+
+@dropdown-bg:                               #fff;
+@dropdown-border:                           @border-color;
+@dropdown-fallback-border:                  @border-color;
+@dropdown-divider-bg:                       #e5e5e5;
+
+@dropdown-link-color:                       @text-color;
+@dropdown-link-hover-color:                 darken(@text-color, 15%);
+@dropdown-link-hover-bg:                    @gray-lighter;
+
+@dropdown-link-active-color:                @component-active-color;
+@dropdown-link-active-bg:                   @component-active-bg;
+
+@dropdown-link-disabled-color:              #f00; // Disabled dropdown menu item color.
+
+/* extra */
+@bs-dropdown-font-size:                     13px;
+@bs-dropdown-vertical-padding:              4px;
+@bs-dropdown-horizontal-padding:            12px;
+
+@bs-dropdown-width:                         175px; // minimum width
+@bs-dropdown-width-small:                   140px;
+@bs-dropdown-width-medium:                  220px;
+@bs-dropdown-width-large:                   350px;
+
+@bs-megamenu-width:                         165px;
+
+//=== Z-index master list
+@zindex-navbar:                             1000;
+@zindex-dropdown:                           1000;
+@zindex-popover:                            1060;
+@zindex-tooltip:                            1070;
+@zindex-navbar-fixed:                       1030;
+@zindex-modal:                              1040;
+
+
+//=== Media queries breakpoints
+@screen-xs:                                 480px;
+@screen-xs-min:                             @screen-xs;
+@screen-phone:                              @screen-xs-min;
+
+@screen-sm:                                 768px;
+@screen-sm-min:                             @screen-sm;
+@screen-tablet:                             @screen-sm-min;
+
+@screen-md:                                 992px;
+@screen-md-min:                             @screen-md;
+@screen-desktop:                            @screen-md-min;
+@screen-lg:                                 1200px;
+@screen-lg-min:                             @screen-lg;
+@screen-lg-desktop:                         @screen-lg-min;
+
+@screen-xs-max:                             (@screen-sm-min - 1);
+@screen-sm-max:                             (@screen-md-min - 1);
+@screen-md-max:                             (@screen-lg-min - 1);
+
+
+//=== Grid system
+@grid-columns:                              12;
+@grid-gutter-width:                         30px;
+@grid-float-breakpoint:                     @screen-md-min; // @screen-sm-min;
+@grid-float-breakpoint-max:                 (@grid-float-breakpoint - 1);
+
+
+//=== Container sizes
+// Small screen / tablet
+@container-tablet:                          (720px + @grid-gutter-width);
+@container-sm:                              @container-tablet;
+
+// Medium screen / desktop
+@container-desktop:                         (940px + @grid-gutter-width);
+@container-md:                              @container-desktop;
+
+// Large screen / wide desktop
+@container-large-desktop:                   (1070px + @grid-gutter-width); // 1140px, 1100px
+@container-lg:                              @container-large-desktop;
+
+
+//=== Navbar
+
+// Basics of a navbar
+@navbar-height:                             44px;
+@navbar-margin-bottom:                      @line-height-computed;
+@navbar-border-radius:                      @border-radius-base;
+@navbar-padding-vertical:                   (@navbar-height - 20) / 2;
+@navbar-padding-horizontal:                 15px;
+@navbar-collapse-max-height:                340px;
+
+@navbar-default-color:                      @gray;
+@navbar-default-bg:                         @gray-lighter;
+@navbar-default-border:                     @border-color;
+
+// Navbar links
+@navbar-default-link-color:                 @navbar-default-color;
+@navbar-default-link-hover-color:           @gray-dark;
+@navbar-default-link-hover-bg:              darken(@navbar-default-bg, 4%);
+@navbar-default-link-active-color:          @gray-dark;
+@navbar-default-link-active-bg:             darken(@navbar-default-bg, 8%);
+@navbar-default-link-disabled-color:        #ccc;
+@navbar-default-link-disabled-bg:           transparent;
+
+// Navbar brand label
+@navbar-default-brand-color:                @navbar-default-link-color;
+@navbar-default-brand-hover-color:          darken(@navbar-default-brand-color, 25%);
+@navbar-default-brand-hover-bg:             transparent;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:            @border-color;
+@navbar-default-toggle-icon-bar-bg:         #888;
+@navbar-default-toggle-border-color:        @border-color;
+
+
+// Inverted navbar
+// Reset inverted navbar basics
+@navbar-inverse-color:                      #ddd;
+@navbar-inverse-bg:                         #343434;
+@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+
+// Inverted navbar links
+@navbar-inverse-link-color:                 @navbar-inverse-color;
+@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-hover-bg:              darken(@navbar-inverse-bg, 5%);
+@navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
+@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-disabled-color:        @gray;
+@navbar-inverse-link-disabled-bg:           transparent;
+
+// Inverted navbar brand label
+@navbar-inverse-brand-color:                @navbar-inverse-link-color;
+@navbar-inverse-brand-hover-color:          #fff;
+@navbar-inverse-brand-hover-bg:             transparent;
+
+// Inverted navbar toggle
+@navbar-inverse-toggle-hover-bg:            #333;
+@navbar-inverse-toggle-icon-bar-bg:         #fff;
+@navbar-inverse-toggle-border-color:        #333;
+
+
+//=== Navs
+
+//=== Shared nav styles
+@nav-link-padding:                          10px (@grid-gutter-width / 2);
+@nav-link-hover-bg:                         @gray-lighter;
+
+@nav-disabled-link-color:                   @gray-light;
+@nav-disabled-link-hover-color:             @gray-light;
+
+//=== Tabs
+@nav-tabs-border-color:                     @border-color;
+
+@nav-tabs-link-hover-border-color:          @gray-lighter;
+
+@nav-tabs-active-link-hover-bg:             @body-bg;
+@nav-tabs-active-link-hover-color:          @gray;
+@nav-tabs-active-link-hover-border-color:   @border-color;
+
+@nav-tabs-justified-link-border-color:            @border-color;
+@nav-tabs-justified-active-link-border-color:     @body-bg;
+
+//=== Pills
+@nav-pills-border-radius:                   @border-radius-base;
+@nav-pills-active-link-hover-bg:            @component-active-bg;
+@nav-pills-active-link-hover-color:         @component-active-color;
+
+
+//=== Pagination
+
+@pagination-color:                          @link-color;
+@pagination-bg:                             #fff;
+@pagination-border:                         @border-color;
+
+@pagination-hover-color:                    @link-hover-color;
+@pagination-hover-bg:                       @gray-lighter;
+@pagination-hover-border:                   rgba(0, 0, 0, 0.15);
+
+@pagination-active-color:                   #fff;
+@pagination-active-bg:                      @brand-primary;
+@pagination-active-border:                  rgba(0, 0, 0, 0.15);
+
+@pagination-disabled-color:                 @gray-light;
+@pagination-disabled-bg:                    #fff;
+@pagination-disabled-border:                @border-color;
+
+
+//=== Pager
+
+@pager-bg:                                  @pagination-bg;
+@pager-border:                              @pagination-border;
+@pager-border-radius:                       15px;
+
+@pager-hover-bg:                            @pagination-hover-bg;
+
+@pager-active-bg:                           @pagination-active-bg;
+@pager-active-color:                        @pagination-active-color;
+
+@pager-disabled-color:                      @pagination-disabled-color;
+
+
+//=== Jumbotron
+
+@jumbotron-padding:                         30px;
+@jumbotron-color:                           inherit;
+@jumbotron-bg:                              @gray-lighter;
+@jumbotron-heading-color:                   inherit;
+@jumbotron-font-size:                       ceil((@font-size-base * 1.5));
+
+
+//=== Form states and alerts
+
+@state-success-text:                        #0a7e07;
+@state-success-bg:                          #f1f8e9;
+@state-success-border:                      fade(@state-success-text, 30%);
+
+@state-info-text:                           #283593;
+@state-info-bg:                             #e7e9fd;
+@state-info-border:                         fade(@state-info-text, 30%);
+
+@state-warning-text:                        #e65100;
+@state-warning-bg:                          #fff8e1;
+@state-warning-border:                      fade(@state-warning-text, 30%);
+
+@state-danger-text:                         #c41411;
+@state-danger-bg:                           #fff0f5;
+@state-danger-border:                       fade(@state-danger-text, 30%);
+
+
+//=== Tooltips
+
+@tooltip-max-width:                         200px;
+@tooltip-color:                             #fff;
+@tooltip-bg:                                rgba(0, 0, 0, 0.8);
+@tooltip-opacity:                           .9;
+
+@tooltip-arrow-width:                       5px;
+@tooltip-arrow-color:                       @tooltip-bg;
+
+
+//=== Popovers
+@popover-max-width:                         276px;
+
+@popover-bg:                                #fff;
+@popover-title-bg:                          darken(@popover-bg, 6%);
+@popover-border-color:                      rgba(0,0,0,.2);
+@popover-fallback-border-color:             darken(@popover-bg, 10%);
+
+@popover-arrow-width:                       10px;
+@popover-arrow-color:                       @popover-bg;
+
+@popover-arrow-outer-width:                 (@popover-arrow-width + 1);
+@popover-arrow-outer-color:                 fadein(@popover-border-color, 5%);
+@popover-arrow-outer-fallback-color:        darken(@popover-fallback-border-color, 20%);
+
+
+//=== Labels
+
+@label-default-bg:                          @gray-light;
+@label-primary-bg:                          @brand-primary;
+@label-success-bg:                          @brand-success;
+@label-info-bg:                             @brand-info;
+@label-warning-bg:                          @brand-warning;
+@label-danger-bg:                           @brand-danger;
+@label-color:                               @text-color-contrast;
+@label-link-hover-color:                    @text-color-contrast;
+
+
+//=== Modals
+
+@modal-inner-padding:                       @bs-margin;
+@modal-title-padding:                       @bs-margin;
+@modal-title-line-height:                   @line-height-base;
+
+@modal-content-bg:                          #fff;
+@modal-content-border-color:                rgba(0,0,0,.2);
+@modal-content-fallback-border-color:       @gray-light;
+
+@modal-backdrop-bg:                         @gray-darker;
+@modal-backdrop-opacity:                    .5;
+@modal-header-border-color:                 @gray-lighter;
+@modal-footer-border-color:                 @modal-header-border-color;
+
+@modal-lg:                                  900px;
+@modal-md:                                  600px;
+@modal-sm:                                  300px;
+
+
+//=== Alerts
+
+@alert-padding:                             @bs-margin;
+@alert-border-radius:                       @border-radius-base;
+@alert-link-font-weight:                    bold;
+
+@alert-success-bg:                          @state-success-bg;
+@alert-success-text:                        @state-success-text;
+@alert-success-border:                      @state-success-border;
+
+@alert-info-bg:                             @state-info-bg;
+@alert-info-text:                           @state-info-text;
+@alert-info-border:                         @state-info-border;
+
+@alert-warning-bg:                          @state-warning-bg;
+@alert-warning-text:                        @state-warning-text;
+@alert-warning-border:                      @state-warning-border;
+
+@alert-danger-bg:                           @state-danger-bg;
+@alert-danger-text:                         @state-danger-text;
+@alert-danger-border:                       @state-danger-border;
+
+
+//=== Close
+
+@close-font-weight:                         bold;
+@close-color:                               @gray-base;
+@close-text-shadow:                         0 1px 0 #fff;
+
+//=== Progress bars
+
+@progress-bg:                               @gray-lighter;
+@progress-bar-color:                        @text-color-contrast;
+@progress-border-radius:                    @border-radius-base;
+
+@progress-bar-bg:                           @brand-primary;
+@progress-bar-success-bg:                   @brand-success;
+@progress-bar-warning-bg:                   @brand-warning;
+@progress-bar-danger-bg:                    @brand-danger;
+@progress-bar-info-bg:                      @brand-info;
+
+
+//=== List group
+
+@list-group-bg:                             #fff;
+@list-group-border:                         @border-color;
+@list-group-border-radius:                  @border-radius-base;
+@list-group-hover-bg:                       #f4f4f4;
+
+@list-group-active-color:                   @component-active-color;
+@list-group-active-bg:                      @component-active-bg;
+@list-group-active-border:                  @list-group-active-bg;
+@list-group-active-text-color:              #f4f4f4;
+
+@list-group-disabled-color:                 @gray-light;
+@list-group-disabled-bg:                    @gray-lighter;
+@list-group-disabled-text-color:            @list-group-disabled-color;
+
+@list-group-link-color:                     @text-color;
+@list-group-link-hover-color:               @list-group-link-color;
+@list-group-link-heading-color:             @headings-color;
+
+
+//=== Panels
+
+@panel-bg:                                  #fff;
+@panel-body-padding:                        @bs-margin;
+@panel-heading-padding:                     10px @bs-margin;
+@panel-footer-padding:                      @panel-heading-padding;
+@panel-border-radius:                       @border-radius-base;
+
+// Border color for elements within panels
+@panel-inner-border:                        @border-color;
+@panel-footer-bg:                           #f4f4f4;
+
+@panel-default-text:                        @gray-dark;
+@panel-default-border:                      @border-color;
+@panel-default-heading-bg:                  #f4f4f4;
+
+@panel-primary-text:                        #fff;
+@panel-primary-border:                      @brand-primary;
+@panel-primary-heading-bg:                  @brand-primary;
+
+@panel-success-text:                        #fff; // @state-success-text;
+@panel-success-border:                      @brand-success; // @state-success-border;
+@panel-success-heading-bg:                  @brand-success;
+
+@panel-info-text:                           #fff; // @state-info-text;
+@panel-info-border:                         @brand-info; // @state-info-border;
+@panel-info-heading-bg:                     @brand-info; // @state-info-bg;
+
+@panel-warning-text:                        #fff; // @state-warning-text;
+@panel-warning-border:                      @brand-warning; // @state-warning-border;
+@panel-warning-heading-bg:                  @brand-warning; // @state-warning-bg;
+
+@panel-danger-text:                         #fff; // @state-danger-text;
+@panel-danger-border:                       @brand-danger; // @state-danger-border;
+@panel-danger-heading-bg:                   @brand-danger; // @state-danger-bg;
+
+
+//=== Thumbnails
+@thumbnail-padding:                         4px;
+@thumbnail-bg:                              @body-bg;
+@thumbnail-border:                          @border-color;
+@thumbnail-border-radius:                   @border-radius-base;
+@thumbnail-caption-color:                   @text-color;
+@thumbnail-caption-padding:                 @padding-base-horizontal @padding-base-vertical;
+
+
+//=== Wells
+
+@well-bg:                                   #f6f6f6;
+@well-border:                               @border-color;
+
+
+//=== Badges
+@badge-font-size:                           11px;
+@badge-color:                               @text-color-contrast;
+@badge-link-hover-color:                    @badge-color;
+@badge-bg:                                  #999;
+
+@badge-active-color:                        darken(@link-color, 4%);
+@badge-active-bg:                           #fff;
+
+@badge-font-weight:                         normal;
+@badge-line-height:                         1;
+@badge-border-radius:                       11px;
+
+
+//=== Breadcrumbs
+
+@breadcrumb-padding-vertical:               @padding-large-vertical;
+@breadcrumb-padding-horizontal:             @padding-large-horizontal;
+@breadcrumb-bg:                             #f4f4f4;
+@breadcrumb-color:                          @gray-light;
+@breadcrumb-active-color:                   @gray;
+@breadcrumb-separator:                      "/";
+
+
+//=== Carousel
+
+@carousel-text-shadow:                      0 1px 2px rgba(0,0,0,.6);
+
+@carousel-control-color:                    #fff;
+@carousel-control-width:                    15%;
+@carousel-control-opacity:                  .5;
+@carousel-control-font-size:                20px;
+
+@carousel-indicator-active-bg:              #fff;
+@carousel-indicator-border-color:           #fff;
+
+@carousel-caption-color:                    #fff;
+
+
+//=== Mixins
+
+.flex-mixin() {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grid-20(@prefix) {
+  .row {
+    > .col-@{prefix}-1-20, > .col-@{prefix}-2-20, > .col-@{prefix}-3-20, > .col-@{prefix}-4-20, > .col-@{prefix}-5-20,
+    > .col-@{prefix}-6-20, > .col-@{prefix}-7-20, > .col-@{prefix}-8-20, > .col-@{prefix}-9-20, > .col-@{prefix}-10-20,
+    > .col-@{prefix}-11-20, > .col-@{prefix}-12-20, > .col-@{prefix}-13-20, > .col-@{prefix}-14-20, > .col-@{prefix}-15-20,
+    > .col-@{prefix}-16-20, > .col-@{prefix}-17-20, > .col-@{prefix}-18-20, > .col-@{prefix}-19-20, > .col-@{prefix}-20-20,
+  //-----
+    > .col-@{prefix}-1-10, > .col-@{prefix}-2-10, > .col-@{prefix}-3-10, > .col-@{prefix}-4-10, > .col-@{prefix}-5-10,
+    > .col-@{prefix}-6-10, > .col-@{prefix}-7-10, > .col-@{prefix}-8-10, > .col-@{prefix}-9-10, > .col-@{prefix}-10-10,
+  //-----
+    > .col-@{prefix}-1-5, > .col-@{prefix}-2-5, > .col-@{prefix}-3-5, > .col-@{prefix}-4-5, > .col-@{prefix}-5-5 {
+      position: relative;
+      min-height: 1px;
+      padding-left: @grid-gutter-width / 2;
+      padding-right: @grid-gutter-width / 2;
+      float: left;
+    }
+  }
+
+  .col-@{prefix}-1-20 {
+    width: 5%;
+  }
+  .col-@{prefix}-2-20,
+  .col-@{prefix}-1-10 {
+    width: 10%;
+  }
+  .col-@{prefix}-3-20 {
+    width: 15%;
+  }
+  .col-@{prefix}-4-20,
+  .col-@{prefix}-2-10,
+  .col-@{prefix}-1-5 {
+    width: 20%;
+  }
+  .col-@{prefix}-5-20 {
+    width: 25%;
+  }
+  .col-@{prefix}-6-20,
+  .col-@{prefix}-3-10 {
+    width: 30%;
+  }
+  .col-@{prefix}-7-20 {
+    width: 35%;
+  }
+  .col-@{prefix}-8-20,
+  .col-@{prefix}-4-10,
+  .col-@{prefix}-2-5 {
+    width: 40%;
+  }
+  .col-@{prefix}-9-20 {
+    width: 45%;
+  }
+  .col-@{prefix}-10-20,
+  .col-@{prefix}-5-10 {
+    width: 50%;
+  }
+  .col-@{prefix}-11-20 {
+    width: 55%;
+  }
+  .col-@{prefix}-12-20,
+  .col-@{prefix}-6-10,
+  .col-@{prefix}-3-5 {
+    width: 60%;
+  }
+  .col-@{prefix}-13-20 {
+    width: 65%;
+  }
+  .col-@{prefix}-14-20,
+  .col-@{prefix}-7-10 {
+    width: 70%;
+  }
+  .col-@{prefix}-15-20 {
+    width: 75%;
+  }
+  .col-@{prefix}-16-20,
+  .col-@{prefix}-8-10,
+  .col-@{prefix}-4-5 {
+    width: 80%;
+  }
+  .col-@{prefix}-17-20 {
+    width: 85%;
+  }
+  .col-@{prefix}-18-20,
+  .col-@{prefix}-9-10 {
+    width: 90%;
+  }
+  .col-@{prefix}-19-20 {
+    width: 95%;
+  }
+  .col-@{prefix}-20-20,
+  .col-@{prefix}-10-10,
+  .col-@{prefix}-5-5 {
+    width: 100%;
+  }
+}

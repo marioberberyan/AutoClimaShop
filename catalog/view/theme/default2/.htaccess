@@ -1,0 +1,5 @@
+# Prevent Direct Access to files
+<FilesMatch "(?i)(\.less|\.tpl)">
+  Order deny,allow
+  Deny from all
+</FilesMatch>

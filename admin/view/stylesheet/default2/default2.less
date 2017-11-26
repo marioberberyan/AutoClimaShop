@@ -1,0 +1,178 @@
+/*!
+ * @package     default2 Theme
+ * @author      EchoThemes, http://www.echothemes.com
+ * @copyright   Copyright (c) 2015, EchoThemes
+ * @license     GPLv3 or later, http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+body {
+    font-size: 12px;
+}
+.uk-container {
+    width: 1000px;
+    min-width: 1000px;
+    padding: 0;
+}
+.navbar-static-top {
+    z-index: 1039;
+}
+#column-left {
+    z-index: 1031;
+}
+#et-content {
+    font-size: 13px;
+}
+#footer {
+    background: #fbfbfb;
+}
+
+.app-header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    .app-title {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .app-action {
+        margin-top: 6px;
+
+        .store-select {}
+        .preset-select {}
+    }
+}
+
+.preset-panel {
+    background: #fff;
+    z-index: 1030;
+
+    .preset-title {
+        .uk-icon-nano {
+            margin-right: 5px;
+        }
+        .uk-form-blank {
+            border-color: transparent !important;
+            box-shadow: none !important;
+            outline: 0 !important;
+            height: 28px !important;
+            margin-top: -4px;
+        }
+    }
+    .save-action {
+        margin-top: -3px;
+    }
+}
+.uk-tab > li > a {
+  padding: 8px 8px;
+}
+.uk-form-horizontal.et-label-narrow .uk-form-label {
+    width: 170px;
+}
+.uk-form-horizontal.et-label-narrow .uk-form-controls {
+    margin-left: 175px;
+}
+
+.uk-button {
+    font-size: 12px;
+    padding: 2px 12px;
+    line-height: 22px;
+    min-height: 22px;
+
+    [class*=uk-icon-] {
+        margin-left: -2px;
+        padding-right: 2px;
+    }
+    .uk-icon-nano:before {
+        font-size: 14px;
+        vertical-align: -1px;
+    }
+}
+.uk-button-layout-chooser {
+    width: 100%;
+
+    label {
+        padding: 6px;
+    }
+    .uk-button {
+        width: 25%;
+        background: #fdfdfd;
+
+        img {
+            pointer-events: none;
+        }
+        &:hover {
+            cursor: pointer;
+        }
+        &.uk-active,
+        &:active {
+          background-color: #d8d8d8;
+        }
+    }
+}
+
+
+//=== Specific Tab
+.tab-block-layouts {}
+    .block-visual {
+        .uk-panel-box {
+            font-size: 10px;
+            line-height: 14px;
+            text-align: center;
+            padding: 5px 5px;
+            border-radius: 0;
+        }
+        .uk-panel-box-red {
+            background: #ffefef;
+            border-color: #e4a0a0;
+        }
+
+        .uk-grid + .uk-grid,
+        .uk-panel+.uk-panel {
+            margin-top: 6px !important;
+        }
+    }
+
+.tab-about {
+    padding-top: 10px;
+
+    .uk-form-label {
+      margin-top: 0;
+    }
+}
+
+//=== Sweet Alert
+.stop-scrolling {
+    padding-right: 17px;
+}
+.sweet-alert {
+    h2 {
+        color: #444;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        margin: 5px 0 20px;
+    }
+    p {
+        color: #333;
+        font-size: 14px;
+        font-family: Verdana, Helvetica, Arial, sans-serif;
+        margin-top: 10px;
+    }
+    fieldset {
+        margin: 0;
+    }
+
+    .sa-button-container {
+        button {
+            font-size: 14px;
+            padding: 7px 24px;
+            box-shadow: none !important;
+        }
+    }
+}
+
+//=== Minicolors
+.minicolors-swatch-color {
+    border: 1px solid rgba(0,0,0,.2);
+}

@@ -1,0 +1,90 @@
+/*!
+ * @package     default2 Theme
+ * @author      EchoThemes, http://www.echothemes.com
+ * @copyright   Copyright (c) 2015, EchoThemes
+ * @license     GPLv3 or later, http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+@import "bootstrap/mixins/buttons.less";
+
+body {
+  color: @font-color;
+  font-size: @font-size;
+  font-family: @font-base;
+  line-height: @font-size * 1.6;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @font-heading;
+}
+dd, dt, ul {
+  line-height: @font-size * 1.75;
+}
+
+a {
+  color: @link-color;
+
+  &:focus, &:hover {
+    color: darken(@link-color, 15%);
+  }
+}
+.link-contrast a {
+  color: #f4f4f4;
+
+  &:focus, &:hover {
+    color: lighten(@link-color, 10%);
+  }
+}
+
+
+// Buttons
+// ====================================
+.btn-primary {
+  .button-variant(@btn-primary-color; @btn-primary-bg; darken(@btn-primary-bg, 5%));
+}
+
+// Specific
+.btn-cart {
+  .button-variant(@btn-cart-color; @btn-cart-bg; darken(@btn-cart-bg, 5%));
+}
+.btn-wishlist {
+  .button-variant(@btn-wishlist-color; @btn-wishlist-bg; darken(@btn-wishlist-bg, 12%));
+}
+.btn-compare {
+  .button-variant(@btn-compare-color; @btn-compare-bg; darken(@btn-compare-bg, 12%));
+}
+
+
+// Block Positions
+// ====================================
+
+.position-ribbon {
+  background: @btn-primary-bg;
+}
+
+
+// Elements Skin
+// ====================================
+.nav,
+.dropdown-menu>li>,
+.dropdown-menu>li>,
+.dropdown-megamenu .megamenu-item>li>,
+.dropdown-megamenu .megamenu-item>li>,
+.list-group,
+.product-thumb h4 {
+  a {
+    color: @font-color;
+
+    &:focus, &:hover {
+      color: darken(@link-color, 15%);
+    }
+  }
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  color: @btn-primary-color;
+  background-color: @btn-primary-bg;
+  border-color: @btn-primary-bg;
+}
