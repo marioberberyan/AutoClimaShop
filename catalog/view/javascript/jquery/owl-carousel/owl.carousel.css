@@ -150,20 +150,20 @@
 
 }
 .owl-controls .owl-page.active span {
-	background: ##F05D05;
-	background-image: -moz-linear-gradient(top, #F05D05, #F05D05);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F05D05), to(#F05D05));
-	background-image: -webkit-linear-gradient(top, #F05D05, #F05D05);
-	background-image: -o-linear-gradient(top, #F05D05, #F05D05);
-	background-image: linear-gradient(to bottom, #F05D05, #F05D05);
+	background: ##929acb;
+	background-image: -moz-linear-gradient(top, #929acb, #929acb);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#929acb), to(#929acb));
+	background-image: -webkit-linear-gradient(top, #929acb, #929acb);
+	background-image: -o-linear-gradient(top, #929acb, #929acb);
+	background-image: linear-gradient(to bottom, #929acb, #929acb);
 	cursor: pointer; 
 }
 .owl-controls .owl-page:hover span {
-	background: #F05D05;
-	background-image: -moz-linear-gradient(top, #F05D05, #F05D05);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F05D05), to(#F05D05));
-	background-image: -webkit-linear-gradient(top, #F05D05, #F05D05);
-	background-image: -o-linear-gradient(top, #F05D05, #F05D05);
-	background-image: linear-gradient(to bottom, #F05D05, #F05D05);
+	background: #929acb;
+	background-image: -moz-linear-gradient(top, #929acb, #929acb);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#929acb), to(#929acb));
+	background-image: -webkit-linear-gradient(top, #929acb, #929acb);
+	background-image: -o-linear-gradient(top, #929acb, #929acb);
+	background-image: linear-gradient(to bottom, #929acb, #929acb);
 	cursor: pointer; 
 }

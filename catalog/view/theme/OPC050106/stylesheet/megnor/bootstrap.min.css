@@ -290,7 +290,7 @@ a {
 }
 
 a:hover,a:focus {
-    color: #CF0202;
+    color: #375175;
     text-decoration: none;
 }
 
@@ -1733,7 +1733,7 @@ legend {
     padding: 0;
     margin-bottom: 10px;
     font-size: 16px;
-    color: #CF0202;
+    color: #375175;
     border: 0;
 	text-transform: uppercase;
 }
@@ -2134,7 +2134,7 @@ textarea.input-lg,select[multiple].input-lg {
 
 .btn-default:hover,.btn-default:focus,.btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default {
     color: #fff;
-    background: none no-repeat scroll 0 0 #CF0202 !important;
+    background: none no-repeat scroll 0 0 #375175 !important;
 }
 
 .btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default {
@@ -2201,7 +2201,7 @@ textarea.input-lg,select[multiple].input-lg {
 
 .btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open .dropdown-toggle.btn-info {
     color: #fff;
-  	background: none no-repeat scroll 0 0 #CF0202 !important
+  	background: none no-repeat scroll 0 0 #375175 !important
 }
 
 .btn-info:active,.btn-info.active,.open .dropdown-toggle.btn-info {
@@ -3237,7 +3237,7 @@ input[type=submit].btn-block,input[type=reset].btn-block,input[type=button].btn-
 
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
     text-decoration: none;
-	color: #CF0202;
+	color: #375175;
 }
 
 .dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus {
@@ -3690,7 +3690,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 .tabs{padding: 0 !important}
 .nav-tabs {
-    border-bottom: 2px solid #CF0202;
+    border-bottom: 2px solid #375175;
 }
 
 .nav-tabs>li {
@@ -3718,7 +3718,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .nav-tabs>li.active>a,.nav-tabs>li:hover>a,.nav-tabs>li:focus>a {
     color: #fff;
-	background: none no-repeat scroll 0 0 #CF0202;
+	background: none no-repeat scroll 0 0 #375175;
     border-bottom-color: transparent;
     cursor: pointer;
 }
@@ -4809,7 +4809,7 @@ a.list-group-item.active>.badge,.nav-pills>.active>a>.badge {
 }
 
 .alert-warning {
-    background-color: #CF0202;
+    background-color: #375175;
     color: #fff;
     padding: 10px;
     display:none;

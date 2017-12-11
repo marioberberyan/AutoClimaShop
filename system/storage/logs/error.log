@@ -17202,3 +17202,35 @@
 2017-10-18 2:56:06 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/autoclim/public_html/admin/index.php:84) in /home/autoclim/public_html/system/library/session.php on line 21
 2017-10-18 2:56:06 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/autoclim/public_html/admin/index.php:84) in /home/autoclim/public_html/system/library/session.php on line 21
 2017-10-18 2:56:06 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/autoclim/public_html/admin/index.php:84) in /home/autoclim/public_html/system/library/currency.php on line 45
+2017-12-05 21:32:23 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 123
+2017-12-05 21:32:23 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 81
+2017-12-05 21:32:25 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 81
+2017-12-05 21:32:26 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:10 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:15 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:22 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:27 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:30 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:38 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:44 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:49 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:55 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:33:58 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:34:01 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:34:04 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:15 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:22 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 81
+2017-12-05 21:35:22 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:23 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:23 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:24 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 81
+2017-12-05 21:35:24 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:24 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:29 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:41 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:35:54 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:36:26 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 81
+2017-12-05 21:36:28 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\system\library\tax.php on line 81
+2017-12-05 21:36:28 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:36:33 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
+2017-12-05 21:36:35 - PHP Warning:  A non-numeric value encountered in C:\xampp\htdocs\Website\catalog\model\total\shipping.php on line 24
